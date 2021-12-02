@@ -12,7 +12,7 @@ contract BraveCatNFT is ERC721Tradable {
     mapping(address => bool) public minters;
 
     struct BreedInfo {
-      uint256 breedType; // 1-11 2-12 3-21 4-22
+      uint256 breedType;
       uint256 genesisPTokenId0;
       uint256 genesisPTokenId1;
       uint256 bravePTokenId0;
